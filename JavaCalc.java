@@ -28,7 +28,7 @@ public class JavaCalc {
             
             case "/":
             case "divide":
-                System.out.printf("%.2f + %.2f = %.2f",a,b,a/b);
+                System.out.printf("%.2f / %.2f = %.2f",a,b,a/b);
                 break;
         
             default:
