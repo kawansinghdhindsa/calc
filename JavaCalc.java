@@ -11,11 +11,14 @@ public class JavaCalc {
         switch (operator) {
             case "+":
             case "plus":
+            case "add":
                 System.out.printf("%.2f + %.2f = %.2f",a,b,a+b);
                 break;
             
             case "-":
             case "minus":
+            case "sub":
+            case "subtract":
                 System.out.printf("%.2f - %.2f = %.2f",a,b,a-b);
                 break;
             
