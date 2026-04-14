@@ -2,11 +2,11 @@ import java.util.Scanner;//Tested
 public class JavaCalc {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.printf("What is A:");
+        System.out.printf("What is A: ");
         double a = input.nextDouble();
-        System.out.printf("What is B:");
+        System.out.printf("What is B: ");
         double b = input.nextDouble();
-        System.out.printf("operator");
+        System.out.printf("What is the operator: ");
         String operator = input.next();
         switch (operator) {
             case "+":
