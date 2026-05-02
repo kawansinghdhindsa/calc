@@ -19,7 +19,7 @@ public class JavaCalc {
             case "minus":
             case "sub":
             case "subtract":
-                System.out.printf("%.2f - %.2f = %.2f",a,b,a-b);
+                subtraction(a,b);
                 break;
             
             case "x":
@@ -43,8 +43,9 @@ public class JavaCalc {
         double c = a+b;
         System.out.printf("%.2f + %.2f = %.2f",a,b,c);
     }
-    public static double subtraction() {
-        return 0;
+    public static void subtraction(double a,double b) {
+        double c = a-b;
+        System.out.printf("%.2f - %.2f = %.2f",a,b,c);
     }
     public static double multiplication(){
         return 0;
