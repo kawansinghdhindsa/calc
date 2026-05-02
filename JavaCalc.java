@@ -39,5 +39,17 @@ public class JavaCalc {
                 return;
         }
     }
+    public static double addition() {
+        return 0;
+    }
+    public static double subtraction() {
+        return 0;
+    }
+    public static double multiplication(){
+        return 0;
+    }
+    public static double division() {
+        return 0;
+    }
 }
 
