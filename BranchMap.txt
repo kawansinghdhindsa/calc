@@ -1,0 +1,2 @@
+diff-class
+: Have different classes that manualy calculate and return the project.
