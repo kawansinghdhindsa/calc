@@ -12,7 +12,7 @@ public class JavaCalc {
             case "+":
             case "plus":
             case "add":
-                System.out.printf("%.2f + %.2f = %.2f",a,b,a+b);
+                addition(a, b);;
                 break;
             
             case "-":
@@ -39,8 +39,9 @@ public class JavaCalc {
                 return;
         }
     }
-    public static double addition() {
-        return 0;
+    public static void addition(double a,double b) {
+        double c = a+b;
+        System.out.printf("%.2f + %.2f = %.2f",a,b,c);
     }
     public static double subtraction() {
         return 0;
